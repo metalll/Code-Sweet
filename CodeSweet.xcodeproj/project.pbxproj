@@ -11,10 +11,14 @@
 		4381646D1D994733009EAA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381646C1D994733009EAA32 /* AppDelegate.m */; };
 		438164701D994733009EAA32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381646F1D994733009EAA32 /* ViewController.m */; };
 		438164731D994733009EAA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438164711D994733009EAA32 /* Main.storyboard */; };
-		438164751D994733009EAA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438164741D994733009EAA32 /* Assets.xcassets */; };
-		438164781D994733009EAA32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438164761D994733009EAA32 /* LaunchScreen.storyboard */; };
 		438164831D994733009EAA32 /* CodeSweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164821D994733009EAA32 /* CodeSweetTests.m */; };
 		4381648E1D994733009EAA32 /* CodeSweetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381648D1D994733009EAA32 /* CodeSweetUITests.m */; };
+		438164A01D994FBF009EAA32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4381649F1D994FBF009EAA32 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		438164A91D995BB4009EAA32 /* NSDNavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164A81D995BB4009EAA32 /* NSDNavControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		438164AE1D995C6D009EAA32 /* NSDRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164AD1D995C6D009EAA32 /* NSDRoot.m */; settings = {ASSET_TAGS = (); }; };
+		438164B41D9961EE009EAA32 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164B31D9961EE009EAA32 /* PINDiskCache.m */; settings = {ASSET_TAGS = (); }; };
+		438164B71D996315009EAA32 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164B61D996315009EAA32 /* PINMemoryCache.m */; settings = {ASSET_TAGS = (); }; };
+		438164BA1D996403009EAA32 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164B91D996403009EAA32 /* PINCache.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +46,6 @@
 		4381646E1D994733009EAA32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4381646F1D994733009EAA32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		438164721D994733009EAA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		438164741D994733009EAA32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		438164771D994733009EAA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438164791D994733009EAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4381647E1D994733009EAA32 /* CodeSweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438164821D994733009EAA32 /* CodeSweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSweetTests.m; sourceTree = "<group>"; };
@@ -51,6 +53,19 @@
 		438164891D994733009EAA32 /* CodeSweetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSweetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4381648D1D994733009EAA32 /* CodeSweetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSweetUITests.m; sourceTree = "<group>"; };
 		4381648F1D994733009EAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4381649F1D994FBF009EAA32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		438164A71D995BB4009EAA32 /* NSDNavControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDNavControllerViewController.h; sourceTree = "<group>"; };
+		438164A81D995BB4009EAA32 /* NSDNavControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDNavControllerViewController.m; sourceTree = "<group>"; };
+		438164AC1D995C6D009EAA32 /* NSDRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDRoot.h; sourceTree = "<group>"; };
+		438164AD1D995C6D009EAA32 /* NSDRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDRoot.m; sourceTree = "<group>"; };
+		438164B01D99615C009EAA32 /* Nullability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nullability.h; sourceTree = "<group>"; };
+		438164B11D9961A9009EAA32 /* NSDCacheObjectSubscripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDCacheObjectSubscripting.h; sourceTree = "<group>"; };
+		438164B21D9961EE009EAA32 /* PINDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINDiskCache.h; sourceTree = "<group>"; };
+		438164B31D9961EE009EAA32 /* PINDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINDiskCache.m; sourceTree = "<group>"; };
+		438164B51D996315009EAA32 /* PINMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINMemoryCache.h; sourceTree = "<group>"; };
+		438164B61D996315009EAA32 /* PINMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
+		438164B81D996403009EAA32 /* PINCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
+		438164B91D996403009EAA32 /* PINCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +116,16 @@
 		438164671D994732009EAA32 /* CodeSweet */ = {
 			isa = PBXGroup;
 			children = (
+				438164AF1D995F86009EAA32 /* Cache */,
+				438164A31D99581F009EAA32 /* ViewControllers */,
 				4381646B1D994733009EAA32 /* AppDelegate.h */,
 				4381646C1D994733009EAA32 /* AppDelegate.m */,
 				4381646E1D994733009EAA32 /* ViewController.h */,
 				4381646F1D994733009EAA32 /* ViewController.m */,
 				438164711D994733009EAA32 /* Main.storyboard */,
-				438164741D994733009EAA32 /* Assets.xcassets */,
-				438164761D994733009EAA32 /* LaunchScreen.storyboard */,
 				438164791D994733009EAA32 /* Info.plist */,
 				438164681D994733009EAA32 /* Supporting Files */,
+				4381649F1D994FBF009EAA32 /* Images.xcassets */,
 			);
 			path = CodeSweet;
 			sourceTree = "<group>";
@@ -138,6 +154,48 @@
 				4381648F1D994733009EAA32 /* Info.plist */,
 			);
 			path = CodeSweetUITests;
+			sourceTree = "<group>";
+		};
+		438164A31D99581F009EAA32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				438164AB1D995C50009EAA32 /* Root */,
+				438164AA1D995C1C009EAA32 /* Navigator */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		438164AA1D995C1C009EAA32 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				438164A71D995BB4009EAA32 /* NSDNavControllerViewController.h */,
+				438164A81D995BB4009EAA32 /* NSDNavControllerViewController.m */,
+			);
+			name = Navigator;
+			sourceTree = "<group>";
+		};
+		438164AB1D995C50009EAA32 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				438164AC1D995C6D009EAA32 /* NSDRoot.h */,
+				438164AD1D995C6D009EAA32 /* NSDRoot.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		438164AF1D995F86009EAA32 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				438164B01D99615C009EAA32 /* Nullability.h */,
+				438164B11D9961A9009EAA32 /* NSDCacheObjectSubscripting.h */,
+				438164B21D9961EE009EAA32 /* PINDiskCache.h */,
+				438164B31D9961EE009EAA32 /* PINDiskCache.m */,
+				438164B51D996315009EAA32 /* PINMemoryCache.h */,
+				438164B61D996315009EAA32 /* PINMemoryCache.m */,
+				438164B81D996403009EAA32 /* PINCache.h */,
+				438164B91D996403009EAA32 /* PINCache.m */,
+			);
+			name = Cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +265,7 @@
 				TargetAttributes = {
 					438164641D994732009EAA32 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3CNYS54QTZ;
 					};
 					4381647D1D994733009EAA32 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -243,8 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438164781D994733009EAA32 /* LaunchScreen.storyboard in Resources */,
-				438164751D994733009EAA32 /* Assets.xcassets in Resources */,
+				438164A01D994FBF009EAA32 /* Images.xcassets in Resources */,
 				438164731D994733009EAA32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438164BA1D996403009EAA32 /* PINCache.m in Sources */,
+				438164A91D995BB4009EAA32 /* NSDNavControllerViewController.m in Sources */,
 				438164701D994733009EAA32 /* ViewController.m in Sources */,
 				4381646D1D994733009EAA32 /* AppDelegate.m in Sources */,
+				438164B41D9961EE009EAA32 /* PINDiskCache.m in Sources */,
+				438164B71D996315009EAA32 /* PINMemoryCache.m in Sources */,
+				438164AE1D995C6D009EAA32 /* NSDRoot.m in Sources */,
 				4381646A1D994733009EAA32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,14 +379,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		438164761D994733009EAA32 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				438164771D994733009EAA32 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -363,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,10 +468,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CodeSweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +483,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CodeSweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
