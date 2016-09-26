@@ -10,6 +10,4 @@
 
 @interface NSDRoot : UIViewController
 
-
-
 @end

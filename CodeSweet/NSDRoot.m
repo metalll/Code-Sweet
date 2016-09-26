@@ -7,7 +7,7 @@
 //
 
 #import "NSDRoot.h"
-
+#import "NSDOAuth.h"
 @interface NSDRoot ()
 
 @end
@@ -16,8 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+    NSDOAuth * oAuthVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Auth"];
+    [[self navigationController] presentViewController:oAuthVC animated:YES completion:nil];
     // Do any additional setup after loading the view.
 }
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4381646A1D994733009EAA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164691D994733009EAA32 /* main.m */; };
 		4381646D1D994733009EAA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381646C1D994733009EAA32 /* AppDelegate.m */; };
-		438164701D994733009EAA32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381646F1D994733009EAA32 /* ViewController.m */; };
 		438164731D994733009EAA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438164711D994733009EAA32 /* Main.storyboard */; };
 		438164831D994733009EAA32 /* CodeSweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164821D994733009EAA32 /* CodeSweetTests.m */; };
 		4381648E1D994733009EAA32 /* CodeSweetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381648D1D994733009EAA32 /* CodeSweetUITests.m */; };
@@ -19,6 +18,12 @@
 		438164B41D9961EE009EAA32 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164B31D9961EE009EAA32 /* PINDiskCache.m */; settings = {ASSET_TAGS = (); }; };
 		438164B71D996315009EAA32 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164B61D996315009EAA32 /* PINMemoryCache.m */; settings = {ASSET_TAGS = (); }; };
 		438164BA1D996403009EAA32 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164B91D996403009EAA32 /* PINCache.m */; settings = {ASSET_TAGS = (); }; };
+		438164C01D996AF4009EAA32 /* NSDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164BF1D996AF4009EAA32 /* NSDOAuth.m */; settings = {ASSET_TAGS = (); }; };
+		438164C51D998B48009EAA32 /* NSDClientInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164C41D998B48009EAA32 /* NSDClientInstance.m */; settings = {ASSET_TAGS = (); }; };
+		438164C91D998B60009EAA32 /* NSDDefaultHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164C81D998B60009EAA32 /* NSDDefaultHTTPClient.m */; settings = {ASSET_TAGS = (); }; };
+		438164CE1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164CD1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m */; settings = {ASSET_TAGS = (); }; };
+		438164D11D999009009EAA32 /* NSURL+NSDDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164D01D999009009EAA32 /* NSURL+NSDDecoder.m */; settings = {ASSET_TAGS = (); }; };
+		438164D41D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164D31D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +48,6 @@
 		438164691D994733009EAA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4381646B1D994733009EAA32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4381646C1D994733009EAA32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4381646E1D994733009EAA32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4381646F1D994733009EAA32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		438164721D994733009EAA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		438164791D994733009EAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4381647E1D994733009EAA32 /* NSDCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +69,19 @@
 		438164B61D996315009EAA32 /* PINMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
 		438164B81D996403009EAA32 /* PINCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
 		438164B91D996403009EAA32 /* PINCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
+		438164BE1D996AF4009EAA32 /* NSDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDOAuth.h; sourceTree = "<group>"; };
+		438164BF1D996AF4009EAA32 /* NSDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDOAuth.m; sourceTree = "<group>"; };
+		438164C31D998B48009EAA32 /* NSDClientInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDClientInstance.h; path = ../../NSDCode/NSDClientInstance.h; sourceTree = "<group>"; };
+		438164C41D998B48009EAA32 /* NSDClientInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDClientInstance.m; path = ../../NSDCode/NSDClientInstance.m; sourceTree = "<group>"; };
+		438164C61D998B60009EAA32 /* NSDDefaultHTTPClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDDefaultHTTPClient_Private.h; path = ../../NSDCode/NSDDefaultHTTPClient_Private.h; sourceTree = "<group>"; };
+		438164C71D998B60009EAA32 /* NSDDefaultHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDDefaultHTTPClient.h; path = ../../NSDCode/NSDDefaultHTTPClient.h; sourceTree = "<group>"; };
+		438164C81D998B60009EAA32 /* NSDDefaultHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDDefaultHTTPClient.m; path = ../../NSDCode/NSDDefaultHTTPClient.m; sourceTree = "<group>"; };
+		438164CC1D998CAD009EAA32 /* NSDictionary+NSDEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSDEncoder.h"; sourceTree = "<group>"; };
+		438164CD1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSDEncoder.m"; sourceTree = "<group>"; };
+		438164CF1D999009009EAA32 /* NSURL+NSDDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+NSDDecoder.h"; sourceTree = "<group>"; };
+		438164D01D999009009EAA32 /* NSURL+NSDDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NSDDecoder.m"; sourceTree = "<group>"; };
+		438164D21D99BCE7009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+NSDBodyDataSetter.h"; sourceTree = "<group>"; };
+		438164D31D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+NSDBodyDataSetter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +132,9 @@
 		438164671D994732009EAA32 /* NSDCode */ = {
 			isa = PBXGroup;
 			children = (
-				438164AF1D995F86009EAA32 /* Cache */,
+				438164BD1D996AAF009EAA32 /* Other */,
+				438164BC1D996A8F009EAA32 /* Controllers */,
 				438164A31D99581F009EAA32 /* ViewControllers */,
-				4381646B1D994733009EAA32 /* AppDelegate.h */,
-				4381646C1D994733009EAA32 /* AppDelegate.m */,
-				4381646E1D994733009EAA32 /* ViewController.h */,
-				4381646F1D994733009EAA32 /* ViewController.m */,
-				438164711D994733009EAA32 /* Main.storyboard */,
-				438164791D994733009EAA32 /* Info.plist */,
-				438164681D994733009EAA32 /* Supporting Files */,
 				4381649F1D994FBF009EAA32 /* Images.xcassets */,
 			);
 			name = NSDCode;
@@ -203,8 +213,73 @@
 		438164BB1D99669A009EAA32 /* NSDOAuth */ = {
 			isa = PBXGroup;
 			children = (
+				438164BE1D996AF4009EAA32 /* NSDOAuth.h */,
+				438164BF1D996AF4009EAA32 /* NSDOAuth.m */,
 			);
 			name = NSDOAuth;
+			sourceTree = "<group>";
+		};
+		438164BC1D996A8F009EAA32 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				438164C11D998ABD009EAA32 /* Network */,
+				438164AF1D995F86009EAA32 /* Cache */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		438164BD1D996AAF009EAA32 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4381646B1D994733009EAA32 /* AppDelegate.h */,
+				4381646C1D994733009EAA32 /* AppDelegate.m */,
+				438164711D994733009EAA32 /* Main.storyboard */,
+				438164791D994733009EAA32 /* Info.plist */,
+				438164681D994733009EAA32 /* Supporting Files */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		438164C11D998ABD009EAA32 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				438164C21D998ACA009EAA32 /* DefaultHTTPClient */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		438164C21D998ACA009EAA32 /* DefaultHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				438164CB1D998C2C009EAA32 /* Extentions */,
+				438164CA1D998B75009EAA32 /* ClientInstance */,
+				438164C61D998B60009EAA32 /* NSDDefaultHTTPClient_Private.h */,
+				438164C71D998B60009EAA32 /* NSDDefaultHTTPClient.h */,
+				438164C81D998B60009EAA32 /* NSDDefaultHTTPClient.m */,
+			);
+			name = DefaultHTTPClient;
+			sourceTree = "<group>";
+		};
+		438164CA1D998B75009EAA32 /* ClientInstance */ = {
+			isa = PBXGroup;
+			children = (
+				438164C31D998B48009EAA32 /* NSDClientInstance.h */,
+				438164C41D998B48009EAA32 /* NSDClientInstance.m */,
+			);
+			name = ClientInstance;
+			sourceTree = "<group>";
+		};
+		438164CB1D998C2C009EAA32 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				438164CC1D998CAD009EAA32 /* NSDictionary+NSDEncoder.h */,
+				438164CD1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m */,
+				438164CF1D999009009EAA32 /* NSURL+NSDDecoder.h */,
+				438164D01D999009009EAA32 /* NSURL+NSDDecoder.m */,
+				438164D21D99BCE7009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.h */,
+				438164D31D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m */,
+			);
+			name = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,11 +414,16 @@
 			files = (
 				438164BA1D996403009EAA32 /* PINCache.m in Sources */,
 				438164A91D995BB4009EAA32 /* NSDNavControllerViewController.m in Sources */,
-				438164701D994733009EAA32 /* ViewController.m in Sources */,
+				438164C91D998B60009EAA32 /* NSDDefaultHTTPClient.m in Sources */,
 				4381646D1D994733009EAA32 /* AppDelegate.m in Sources */,
+				438164C01D996AF4009EAA32 /* NSDOAuth.m in Sources */,
+				438164D41D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */,
 				438164B41D9961EE009EAA32 /* PINDiskCache.m in Sources */,
 				438164B71D996315009EAA32 /* PINMemoryCache.m in Sources */,
+				438164D11D999009009EAA32 /* NSURL+NSDDecoder.m in Sources */,
+				438164CE1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m in Sources */,
 				438164AE1D995C6D009EAA32 /* NSDRoot.m in Sources */,
+				438164C51D998B48009EAA32 /* NSDClientInstance.m in Sources */,
 				4381646A1D994733009EAA32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

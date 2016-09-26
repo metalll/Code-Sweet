@@ -22,6 +22,52 @@
             </objects>
             <point key="canvasLocation" x="-196" y="224"/>
         </scene>
+        <!--Auth-->
+        <scene sceneID="QMw-vN-QzE">
+            <objects>
+                <viewController storyboardIdentifier="Auth" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ii2-ZG-pSR" customClass="NSDOAuth" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1JR-Fu-xay"/>
+                        <viewControllerLayoutGuide type="bottom" id="TiV-Xj-01X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Huf-b2-CML">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8m-F5-yxj">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="j2A-7f-6c6">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="MIS-tB-rkL"/>
+                                    <constraint firstAttribute="height" constant="20" id="l5e-TZ-JYw"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TiV-Xj-01X" firstAttribute="top" secondItem="i8m-F5-yxj" secondAttribute="bottom" id="7o7-mk-JDF"/>
+                            <constraint firstItem="j2A-7f-6c6" firstAttribute="centerX" secondItem="Huf-b2-CML" secondAttribute="centerX" id="Aja-iI-gJG"/>
+                            <constraint firstItem="i8m-F5-yxj" firstAttribute="top" secondItem="1JR-Fu-xay" secondAttribute="bottom" id="TlU-5X-6Ia"/>
+                            <constraint firstAttribute="trailing" secondItem="i8m-F5-yxj" secondAttribute="trailing" id="l1s-TN-no7"/>
+                            <constraint firstItem="j2A-7f-6c6" firstAttribute="centerY" secondItem="Huf-b2-CML" secondAttribute="centerY" id="ouK-J9-nTu"/>
+                            <constraint firstItem="i8m-F5-yxj" firstAttribute="leading" secondItem="Huf-b2-CML" secondAttribute="leading" id="tLr-Vl-R13"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progress" destination="j2A-7f-6c6" id="QQA-sK-YUF"/>
+                        <outlet property="web" destination="i8m-F5-yxj" id="Ovd-v9-TdQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fea-Wh-Qay" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="-457"/>
+        </scene>
         <!--Root-->
         <scene sceneID="pfb-1Y-7YT">
             <objects>
@@ -33,8 +79,22 @@
                     <view key="view" contentMode="scaleToFill" id="JsQ-DM-LIN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="AnC-wB-kw7">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="6tJ-zh-UrM"/>
+                                    <constraint firstAttribute="width" constant="20" id="dim-Sn-rQK"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AnC-wB-kw7" firstAttribute="centerX" secondItem="JsQ-DM-LIN" secondAttribute="centerX" id="Yq1-i1-LDI"/>
+                            <constraint firstItem="AnC-wB-kw7" firstAttribute="centerY" secondItem="JsQ-DM-LIN" secondAttribute="centerY" id="fwt-45-Vlm"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="u7o-rA-eyg"/>
                 </viewController>
