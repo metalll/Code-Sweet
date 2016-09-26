@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		438164651D994732009EAA32 /* CodeSweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438164651D994732009EAA32 /* NSDCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438164691D994733009EAA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4381646B1D994733009EAA32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4381646C1D994733009EAA32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		4381646F1D994733009EAA32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		438164721D994733009EAA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		438164791D994733009EAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4381647E1D994733009EAA32 /* CodeSweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4381647E1D994733009EAA32 /* NSDCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438164821D994733009EAA32 /* CodeSweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSweetTests.m; sourceTree = "<group>"; };
 		438164841D994733009EAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		438164891D994733009EAA32 /* CodeSweetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSweetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438164891D994733009EAA32 /* NSDCode.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDCode.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4381648D1D994733009EAA32 /* CodeSweetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSweetUITests.m; sourceTree = "<group>"; };
 		4381648F1D994733009EAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4381649F1D994FBF009EAA32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		4381645C1D994732009EAA32 = {
 			isa = PBXGroup;
 			children = (
-				438164671D994732009EAA32 /* CodeSweet */,
+				438164671D994732009EAA32 /* NSDCode */,
 				438164811D994733009EAA32 /* CodeSweetTests */,
 				4381648C1D994733009EAA32 /* CodeSweetUITests */,
 				438164661D994732009EAA32 /* Products */,
@@ -106,14 +106,14 @@
 		438164661D994732009EAA32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				438164651D994732009EAA32 /* CodeSweet.app */,
-				4381647E1D994733009EAA32 /* CodeSweetTests.xctest */,
-				438164891D994733009EAA32 /* CodeSweetUITests.xctest */,
+				438164651D994732009EAA32 /* NSDCode.app */,
+				4381647E1D994733009EAA32 /* NSDCode.xctest */,
+				438164891D994733009EAA32 /* NSDCode.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		438164671D994732009EAA32 /* CodeSweet */ = {
+		438164671D994732009EAA32 /* NSDCode */ = {
 			isa = PBXGroup;
 			children = (
 				438164AF1D995F86009EAA32 /* Cache */,
@@ -127,6 +127,7 @@
 				438164681D994733009EAA32 /* Supporting Files */,
 				4381649F1D994FBF009EAA32 /* Images.xcassets */,
 			);
+			name = NSDCode;
 			path = CodeSweet;
 			sourceTree = "<group>";
 		};
@@ -159,6 +160,7 @@
 		438164A31D99581F009EAA32 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				438164BB1D99669A009EAA32 /* NSDOAuth */,
 				438164AB1D995C50009EAA32 /* Root */,
 				438164AA1D995C1C009EAA32 /* Navigator */,
 			);
@@ -198,12 +200,19 @@
 			name = Cache;
 			sourceTree = "<group>";
 		};
+		438164BB1D99669A009EAA32 /* NSDOAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NSDOAuth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		438164641D994732009EAA32 /* CodeSweet */ = {
+		438164641D994732009EAA32 /* NSDCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 438164921D994733009EAA32 /* Build configuration list for PBXNativeTarget "CodeSweet" */;
+			buildConfigurationList = 438164921D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCode" */;
 			buildPhases = (
 				438164611D994732009EAA32 /* Sources */,
 				438164621D994732009EAA32 /* Frameworks */,
@@ -213,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = CodeSweet;
+			name = NSDCode;
 			productName = CodeSweet;
-			productReference = 438164651D994732009EAA32 /* CodeSweet.app */;
+			productReference = 438164651D994732009EAA32 /* NSDCode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4381647D1D994733009EAA32 /* CodeSweetTests */ = {
+		4381647D1D994733009EAA32 /* NSDCodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 438164951D994733009EAA32 /* Build configuration list for PBXNativeTarget "CodeSweetTests" */;
+			buildConfigurationList = 438164951D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCodeTests" */;
 			buildPhases = (
 				4381647A1D994733009EAA32 /* Sources */,
 				4381647B1D994733009EAA32 /* Frameworks */,
@@ -231,14 +240,14 @@
 			dependencies = (
 				438164801D994733009EAA32 /* PBXTargetDependency */,
 			);
-			name = CodeSweetTests;
+			name = NSDCodeTests;
 			productName = CodeSweetTests;
-			productReference = 4381647E1D994733009EAA32 /* CodeSweetTests.xctest */;
+			productReference = 4381647E1D994733009EAA32 /* NSDCode.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		438164881D994733009EAA32 /* CodeSweetUITests */ = {
+		438164881D994733009EAA32 /* NSDCodeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 438164981D994733009EAA32 /* Build configuration list for PBXNativeTarget "CodeSweetUITests" */;
+			buildConfigurationList = 438164981D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCodeUITests" */;
 			buildPhases = (
 				438164851D994733009EAA32 /* Sources */,
 				438164861D994733009EAA32 /* Frameworks */,
@@ -249,9 +258,9 @@
 			dependencies = (
 				4381648B1D994733009EAA32 /* PBXTargetDependency */,
 			);
-			name = CodeSweetUITests;
+			name = NSDCodeUITests;
 			productName = CodeSweetUITests;
-			productReference = 438164891D994733009EAA32 /* CodeSweetUITests.xctest */;
+			productReference = 438164891D994733009EAA32 /* NSDCode.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 438164601D994732009EAA32 /* Build configuration list for PBXProject "CodeSweet" */;
+			buildConfigurationList = 438164601D994732009EAA32 /* Build configuration list for PBXProject "NSDCode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,9 +299,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				438164641D994732009EAA32 /* CodeSweet */,
-				4381647D1D994733009EAA32 /* CodeSweetTests */,
-				438164881D994733009EAA32 /* CodeSweetUITests */,
+				438164641D994732009EAA32 /* NSDCode */,
+				4381647D1D994733009EAA32 /* NSDCodeTests */,
+				438164881D994733009EAA32 /* NSDCodeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,12 +369,12 @@
 /* Begin PBXTargetDependency section */
 		438164801D994733009EAA32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 438164641D994732009EAA32 /* CodeSweet */;
+			target = 438164641D994732009EAA32 /* NSDCode */;
 			targetProxy = 4381647F1D994733009EAA32 /* PBXContainerItemProxy */;
 		};
 		4381648B1D994733009EAA32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 438164641D994732009EAA32 /* CodeSweet */;
+			target = 438164641D994732009EAA32 /* NSDCode */;
 			targetProxy = 4381648A1D994733009EAA32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,8 +482,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CodeSweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nsd.NSDCode;
+				PRODUCT_NAME = NSDCode;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -488,8 +497,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CodeSweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nsd.NSDCode;
+				PRODUCT_NAME = NSDCode;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -501,8 +510,8 @@
 				INFOPLIST_FILE = CodeSweetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweetTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSweet.app/CodeSweet";
+				PRODUCT_NAME = NSDCode;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDCode.app/NSDCode";
 			};
 			name = Debug;
 		};
@@ -513,8 +522,8 @@
 				INFOPLIST_FILE = CodeSweetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweetTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSweet.app/CodeSweet";
+				PRODUCT_NAME = NSDCode;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDCode.app/NSDCode";
 			};
 			name = Release;
 		};
@@ -524,7 +533,7 @@
 				INFOPLIST_FILE = CodeSweetUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweetUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NSDCode;
 				TEST_TARGET_NAME = CodeSweet;
 				USES_XCTRUNNER = YES;
 			};
@@ -536,7 +545,7 @@
 				INFOPLIST_FILE = CodeSweetUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nsd.CodeSweetUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NSDCode;
 				TEST_TARGET_NAME = CodeSweet;
 				USES_XCTRUNNER = YES;
 			};
@@ -545,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		438164601D994732009EAA32 /* Build configuration list for PBXProject "CodeSweet" */ = {
+		438164601D994732009EAA32 /* Build configuration list for PBXProject "NSDCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				438164901D994733009EAA32 /* Debug */,
@@ -554,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		438164921D994733009EAA32 /* Build configuration list for PBXNativeTarget "CodeSweet" */ = {
+		438164921D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				438164931D994733009EAA32 /* Debug */,
@@ -562,7 +571,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		438164951D994733009EAA32 /* Build configuration list for PBXNativeTarget "CodeSweetTests" */ = {
+		438164951D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				438164961D994733009EAA32 /* Debug */,
@@ -570,7 +579,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		438164981D994733009EAA32 /* Build configuration list for PBXNativeTarget "CodeSweetUITests" */ = {
+		438164981D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCodeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				438164991D994733009EAA32 /* Debug */,

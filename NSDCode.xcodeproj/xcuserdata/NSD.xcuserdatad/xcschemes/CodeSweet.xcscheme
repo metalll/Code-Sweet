@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "438164641D994732009EAA32"
-               BuildableName = "CodeSweet.app"
-               BlueprintName = "CodeSweet"
-               ReferencedContainer = "container:CodeSweet.xcodeproj">
+               BuildableName = "NSDCode.app"
+               BlueprintName = "NSDCode"
+               ReferencedContainer = "container:NSDCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4381647D1D994733009EAA32"
-               BuildableName = "CodeSweetTests.xctest"
-               BlueprintName = "CodeSweetTests"
-               ReferencedContainer = "container:CodeSweet.xcodeproj">
+               BuildableName = "NSDCode.xctest"
+               BlueprintName = "NSDCodeTests"
+               ReferencedContainer = "container:NSDCode.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "438164881D994733009EAA32"
-               BuildableName = "CodeSweetUITests.xctest"
-               BlueprintName = "CodeSweetUITests"
-               ReferencedContainer = "container:CodeSweet.xcodeproj">
+               BuildableName = "NSDCode.xctest"
+               BlueprintName = "NSDCodeUITests"
+               ReferencedContainer = "container:NSDCode.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "438164641D994732009EAA32"
-            BuildableName = "CodeSweet.app"
-            BlueprintName = "CodeSweet"
-            ReferencedContainer = "container:CodeSweet.xcodeproj">
+            BuildableName = "NSDCode.app"
+            BlueprintName = "NSDCode"
+            ReferencedContainer = "container:NSDCode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "438164641D994732009EAA32"
-            BuildableName = "CodeSweet.app"
-            BlueprintName = "CodeSweet"
-            ReferencedContainer = "container:CodeSweet.xcodeproj">
+            BuildableName = "NSDCode.app"
+            BlueprintName = "NSDCode"
+            ReferencedContainer = "container:NSDCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "438164641D994732009EAA32"
-            BuildableName = "CodeSweet.app"
-            BlueprintName = "CodeSweet"
-            ReferencedContainer = "container:CodeSweet.xcodeproj">
+            BuildableName = "NSDCode.app"
+            BlueprintName = "NSDCode"
+            ReferencedContainer = "container:NSDCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
