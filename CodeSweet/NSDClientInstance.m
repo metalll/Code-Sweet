@@ -19,7 +19,7 @@
         if(instance.authToken) {
             NSURLSessionConfiguration * config = [NSURLSessionConfiguration defaultSessionConfiguration];
             config.HTTPAdditionalHeaders = [NSMutableDictionary new];
-            [config.HTTPAdditionalHeaders setValue:@"Authorization" forKey:[@"token" stringByAppendingString:instance.authToken]];
+            [config.HTTPAdditionalHeaders setValue:@"Authorization" forKey:[@"token " stringByAppendingString:instance.authToken]];
             
             instance.session = [NSURLSession sessionWithConfiguration:config]; }
         

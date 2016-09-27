@@ -1,0 +1,47 @@
+//
+//  NSDEvent.m
+//  NSDCode
+//
+//  Created by NullStackDev on 9/27/16.
+//  Copyright © 2016 NullStackDev. All rights reserved.
+//
+
+#import "NSDEvent.h"
+
+@implementation NSDEvent
+
+- (instancetype)initWithLogin:(NSString*)login andAction:(NSString*)action andTime:(NSString*)time andRefType:(NSString*)refType andRepoName:(NSString*)repoName andRef:(NSString*)ref andAvatarUrl:(NSString*)avatarUrl andRepoUrl:(NSString *)repoUrl
+{
+    self = [super init];
+    if (self) {
+        
+        self.login = login;
+        self.action = action;
+        self.time = time;
+        self.refType = refType;
+        self.repoName = repoName;
+        self.ref = ref;
+        self.avatarUrl = avatarUrl;
+        self.repoUrl = repoUrl;
+    }
+    return self;
+}
+
+-(NSString *)eventDescription
+{
+    if([self.refType.lowercaseString containsString:@"repo"] && [self.action.lowercaseString containsString:@"create"]){
+        return [NSString stringWithFormat:@"%@ created repository %@", self.login, self.repoName];
+    }
+    
+    else if([self.refType.lowercaseString containsString:@"branch"] && [self.action.lowercaseString containsString:@"create"]){
+        return [NSString stringWithFormat:@"%@ created branch %@ in %@", self.login, self.ref, self.repoName];
+    }
+    
+    else if([self.action.lowercaseString containsString:@"push"]){
+        return [NSString stringWithFormat:@"%@ pushed to %@ at %@", self.login, self.ref, self.repoName];
+    }
+    
+    return [NSString stringWithFormat:@"%@ %@, %@", self.login, self.action, self.repoName];
+}
+
+@end

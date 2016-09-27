@@ -24,6 +24,19 @@
 		438164D41D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164D31D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m */; settings = {ASSET_TAGS = (); }; };
 		438164D71D99DBB1009EAA32 /* NSDClientInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164D61D99DBB1009EAA32 /* NSDClientInstance.m */; settings = {ASSET_TAGS = (); }; };
 		438164DB1D99DBC5009EAA32 /* NSDDefaultHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164DA1D99DBC5009EAA32 /* NSDDefaultHTTPClient.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EDD1D9A577100727778 /* NSDGithubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EDC1D9A577100727778 /* NSDGithubClient.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EE21D9A607300727778 /* NSDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EE11D9A607300727778 /* NSDUser.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EE51D9A60A200727778 /* NSDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EE41D9A60A200727778 /* NSDEvent.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EEB1D9A60E100727778 /* NSDNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EEA1D9A60E100727778 /* NSDNews.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EEE1D9A60EC00727778 /* NSDRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EED1D9A60EC00727778 /* NSDRepo.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EF11D9A610800727778 /* NSDIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EF01D9A610800727778 /* NSDIssue.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EF41D9A612C00727778 /* NSDRepoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EF31D9A612C00727778 /* NSDRepoFile.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EF71D9A615A00727778 /* NSDRepoDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EF61D9A615A00727778 /* NSDRepoDirectory.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EFA1D9A61A100727778 /* NSDIssueEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EF91D9A61A100727778 /* NSDIssueEvent.m */; settings = {ASSET_TAGS = (); }; };
+		43B31EFD1D9A61CC00727778 /* NSDCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EFC1D9A61CC00727778 /* NSDCommit.m */; settings = {ASSET_TAGS = (); }; };
+		43B31F001D9A61DB00727778 /* NSDComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31EFF1D9A61DB00727778 /* NSDComment.m */; settings = {ASSET_TAGS = (); }; };
+		43B31F041D9A675500727778 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B31F031D9A675500727778 /* MenuView.m */; settings = {ASSET_TAGS = (); }; };
+		43B31F061D9A676000727778 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B31F051D9A676000727778 /* MenuView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +95,31 @@
 		438164D81D99DBC5009EAA32 /* NSDDefaultHTTPClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDDefaultHTTPClient_Private.h; sourceTree = "<group>"; };
 		438164D91D99DBC5009EAA32 /* NSDDefaultHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDDefaultHTTPClient.h; sourceTree = "<group>"; };
 		438164DA1D99DBC5009EAA32 /* NSDDefaultHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDDefaultHTTPClient.m; sourceTree = "<group>"; };
+		43B31EDB1D9A577100727778 /* NSDGithubClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDGithubClient.h; sourceTree = "<group>"; };
+		43B31EDC1D9A577100727778 /* NSDGithubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDGithubClient.m; sourceTree = "<group>"; };
+		43B31EE01D9A607300727778 /* NSDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDUser.h; sourceTree = "<group>"; };
+		43B31EE11D9A607300727778 /* NSDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDUser.m; sourceTree = "<group>"; };
+		43B31EE31D9A60A200727778 /* NSDEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDEvent.h; sourceTree = "<group>"; };
+		43B31EE41D9A60A200727778 /* NSDEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDEvent.m; sourceTree = "<group>"; };
+		43B31EE91D9A60E100727778 /* NSDNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDNews.h; sourceTree = "<group>"; };
+		43B31EEA1D9A60E100727778 /* NSDNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDNews.m; sourceTree = "<group>"; };
+		43B31EEC1D9A60EC00727778 /* NSDRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDRepo.h; sourceTree = "<group>"; };
+		43B31EED1D9A60EC00727778 /* NSDRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDRepo.m; sourceTree = "<group>"; };
+		43B31EEF1D9A610800727778 /* NSDIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDIssue.h; sourceTree = "<group>"; };
+		43B31EF01D9A610800727778 /* NSDIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDIssue.m; sourceTree = "<group>"; };
+		43B31EF21D9A612C00727778 /* NSDRepoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDRepoFile.h; sourceTree = "<group>"; };
+		43B31EF31D9A612C00727778 /* NSDRepoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDRepoFile.m; sourceTree = "<group>"; };
+		43B31EF51D9A615A00727778 /* NSDRepoDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDRepoDirectory.h; sourceTree = "<group>"; };
+		43B31EF61D9A615A00727778 /* NSDRepoDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDRepoDirectory.m; sourceTree = "<group>"; };
+		43B31EF81D9A61A100727778 /* NSDIssueEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDIssueEvent.h; sourceTree = "<group>"; };
+		43B31EF91D9A61A100727778 /* NSDIssueEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDIssueEvent.m; sourceTree = "<group>"; };
+		43B31EFB1D9A61CC00727778 /* NSDCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDCommit.h; sourceTree = "<group>"; };
+		43B31EFC1D9A61CC00727778 /* NSDCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDCommit.m; sourceTree = "<group>"; };
+		43B31EFE1D9A61DB00727778 /* NSDComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDComment.h; sourceTree = "<group>"; };
+		43B31EFF1D9A61DB00727778 /* NSDComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDComment.m; sourceTree = "<group>"; };
+		43B31F021D9A675500727778 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		43B31F031D9A675500727778 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		43B31F051D9A676000727778 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +170,9 @@
 		438164671D994732009EAA32 /* NSDCode */ = {
 			isa = PBXGroup;
 			children = (
+				43B31F011D9A671700727778 /* Views */,
+				43B31EDE1D9A604300727778 /* Models */,
+				43B31EDF1D9A604E00727778 /* ViewModels */,
 				438164BD1D996AAF009EAA32 /* Other */,
 				438164BC1D996A8F009EAA32 /* Controllers */,
 				438164A31D99581F009EAA32 /* ViewControllers */,
@@ -243,6 +284,7 @@
 		438164C11D998ABD009EAA32 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				43B31EDA1D9A571A00727778 /* GithubClient */,
 				438164C21D998ACA009EAA32 /* DefaultHTTPClient */,
 			);
 			name = Network;
@@ -280,6 +322,59 @@
 				438164D31D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m */,
 			);
 			name = Extentions;
+			sourceTree = "<group>";
+		};
+		43B31EDA1D9A571A00727778 /* GithubClient */ = {
+			isa = PBXGroup;
+			children = (
+				43B31EDB1D9A577100727778 /* NSDGithubClient.h */,
+				43B31EDC1D9A577100727778 /* NSDGithubClient.m */,
+			);
+			name = GithubClient;
+			sourceTree = "<group>";
+		};
+		43B31EDE1D9A604300727778 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43B31EE01D9A607300727778 /* NSDUser.h */,
+				43B31EE11D9A607300727778 /* NSDUser.m */,
+				43B31EE31D9A60A200727778 /* NSDEvent.h */,
+				43B31EE41D9A60A200727778 /* NSDEvent.m */,
+				43B31EE91D9A60E100727778 /* NSDNews.h */,
+				43B31EEA1D9A60E100727778 /* NSDNews.m */,
+				43B31EEC1D9A60EC00727778 /* NSDRepo.h */,
+				43B31EED1D9A60EC00727778 /* NSDRepo.m */,
+				43B31EEF1D9A610800727778 /* NSDIssue.h */,
+				43B31EF01D9A610800727778 /* NSDIssue.m */,
+				43B31EF21D9A612C00727778 /* NSDRepoFile.h */,
+				43B31EF31D9A612C00727778 /* NSDRepoFile.m */,
+				43B31EF51D9A615A00727778 /* NSDRepoDirectory.h */,
+				43B31EF61D9A615A00727778 /* NSDRepoDirectory.m */,
+				43B31EF81D9A61A100727778 /* NSDIssueEvent.h */,
+				43B31EF91D9A61A100727778 /* NSDIssueEvent.m */,
+				43B31EFB1D9A61CC00727778 /* NSDCommit.h */,
+				43B31EFC1D9A61CC00727778 /* NSDCommit.m */,
+				43B31EFE1D9A61DB00727778 /* NSDComment.h */,
+				43B31EFF1D9A61DB00727778 /* NSDComment.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		43B31EDF1D9A604E00727778 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		43B31F011D9A671700727778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43B31F021D9A675500727778 /* MenuView.h */,
+				43B31F031D9A675500727778 /* MenuView.m */,
+				43B31F051D9A676000727778 /* MenuView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				438164A01D994FBF009EAA32 /* Images.xcassets in Resources */,
+				43B31F061D9A676000727778 /* MenuView.xib in Resources */,
 				438164731D994733009EAA32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,13 +512,25 @@
 				438164BA1D996403009EAA32 /* PINCache.m in Sources */,
 				438164A91D995BB4009EAA32 /* NSDNavControllerViewController.m in Sources */,
 				4381646D1D994733009EAA32 /* AppDelegate.m in Sources */,
+				43B31EF11D9A610800727778 /* NSDIssue.m in Sources */,
 				438164C01D996AF4009EAA32 /* NSDOAuth.m in Sources */,
+				43B31EEE1D9A60EC00727778 /* NSDRepo.m in Sources */,
 				438164D41D99BCE8009EAA32 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */,
 				438164B41D9961EE009EAA32 /* PINDiskCache.m in Sources */,
 				438164B71D996315009EAA32 /* PINMemoryCache.m in Sources */,
 				438164D11D999009009EAA32 /* NSURL+NSDDecoder.m in Sources */,
 				438164DB1D99DBC5009EAA32 /* NSDDefaultHTTPClient.m in Sources */,
 				438164CE1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m in Sources */,
+				43B31EFD1D9A61CC00727778 /* NSDCommit.m in Sources */,
+				43B31F041D9A675500727778 /* MenuView.m in Sources */,
+				43B31EE21D9A607300727778 /* NSDUser.m in Sources */,
+				43B31F001D9A61DB00727778 /* NSDComment.m in Sources */,
+				43B31EEB1D9A60E100727778 /* NSDNews.m in Sources */,
+				43B31EF71D9A615A00727778 /* NSDRepoDirectory.m in Sources */,
+				43B31EFA1D9A61A100727778 /* NSDIssueEvent.m in Sources */,
+				43B31EF41D9A612C00727778 /* NSDRepoFile.m in Sources */,
+				43B31EE51D9A60A200727778 /* NSDEvent.m in Sources */,
+				43B31EDD1D9A577100727778 /* NSDGithubClient.m in Sources */,
 				438164AE1D995C6D009EAA32 /* NSDRoot.m in Sources */,
 				4381646A1D994733009EAA32 /* main.m in Sources */,
 			);
@@ -650,6 +758,7 @@
 				438164941D994733009EAA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438164951D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +767,7 @@
 				438164971D994733009EAA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438164981D994733009EAA32 /* Build configuration list for PBXNativeTarget "NSDCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +776,7 @@
 				4381649A1D994733009EAA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
