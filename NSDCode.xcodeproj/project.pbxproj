@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430C80CF1D9A767C0014D3DA /* NSDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 430C80CE1D9A767C0014D3DA /* NSDToast.m */; settings = {ASSET_TAGS = (); }; };
 		4381646A1D994733009EAA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438164691D994733009EAA32 /* main.m */; };
 		4381646D1D994733009EAA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381646C1D994733009EAA32 /* AppDelegate.m */; };
 		438164731D994733009EAA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438164711D994733009EAA32 /* Main.storyboard */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430C80CD1D9A767C0014D3DA /* NSDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDToast.h; sourceTree = "<group>"; };
+		430C80CE1D9A767C0014D3DA /* NSDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDToast.m; sourceTree = "<group>"; };
 		438164651D994732009EAA32 /* NSDCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438164691D994733009EAA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4381646B1D994733009EAA32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +150,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		430C80D01D9A77340014D3DA /* NSDToast */ = {
+			isa = PBXGroup;
+			children = (
+				430C80CD1D9A767C0014D3DA /* NSDToast.h */,
+				430C80CE1D9A767C0014D3DA /* NSDToast.m */,
+			);
+			name = NSDToast;
+			sourceTree = "<group>";
+		};
+		430C80D11D9A77500014D3DA /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				43B31F021D9A675500727778 /* MenuView.h */,
+				43B31F031D9A675500727778 /* MenuView.m */,
+				43B31F051D9A676000727778 /* MenuView.xib */,
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
 		4381645C1D994732009EAA32 = {
 			isa = PBXGroup;
 			children = (
@@ -370,9 +392,8 @@
 		43B31F011D9A671700727778 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				43B31F021D9A675500727778 /* MenuView.h */,
-				43B31F031D9A675500727778 /* MenuView.m */,
-				43B31F051D9A676000727778 /* MenuView.xib */,
+				430C80D11D9A77500014D3DA /* MenuView */,
+				430C80D01D9A77340014D3DA /* NSDToast */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -521,6 +542,7 @@
 				438164D11D999009009EAA32 /* NSURL+NSDDecoder.m in Sources */,
 				438164DB1D99DBC5009EAA32 /* NSDDefaultHTTPClient.m in Sources */,
 				438164CE1D998CAD009EAA32 /* NSDictionary+NSDEncoder.m in Sources */,
+				430C80CF1D9A767C0014D3DA /* NSDToast.m in Sources */,
 				43B31EFD1D9A61CC00727778 /* NSDCommit.m in Sources */,
 				43B31F041D9A675500727778 /* MenuView.m in Sources */,
 				43B31EE21D9A607300727778 /* NSDUser.m in Sources */,
