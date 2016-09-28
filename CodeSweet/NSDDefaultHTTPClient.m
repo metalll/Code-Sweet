@@ -35,13 +35,13 @@
         return nil;
     }
     if(HTTPResp.statusCode<=499&&HTTPResp.statusCode>=400){
-        return [@"Client error" stringByAppendingString:[NSString stringWithFormat:@"%d",HTTPResp.statusCode]];
+        return [@"Client error" stringByAppendingString:[NSString stringWithFormat:@"%ld",(long)HTTPResp.statusCode]];
     }
     if(HTTPResp.statusCode<=599&&HTTPResp.statusCode>=500){
-       return [@"Server error" stringByAppendingString:[NSString stringWithFormat:@"%d",HTTPResp.statusCode]];
+       return [@"Server error" stringByAppendingString:[NSString stringWithFormat:@"%ld",(long)HTTPResp.statusCode]];
     }
     if(HTTPResp.statusCode<=199||HTTPResp.statusCode>=600){
-        return [@"Unknown error" stringByAppendingString:[NSString stringWithFormat:@"%d",HTTPResp.statusCode]];
+        return [@"Unknown error" stringByAppendingString:[NSString stringWithFormat:@"%ld",(long)HTTPResp.statusCode]];
     }
 
     

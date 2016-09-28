@@ -9,5 +9,9 @@
 #import "NSDDefaultHTTPClient.h"
 
 @interface NSDGithubClient : NSDDefaultHTTPClient
+
 +(void) setAccessToken:(NSString *)token;
+
++ (void) processReqCodeWithDictinary:(NSDictionary *) reqDic
+                       andCompletion:(void(^)())completion;
 @end

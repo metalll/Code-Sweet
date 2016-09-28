@@ -12,7 +12,7 @@
 
 -(void)setBodyData:(NSData *)data andIsJSONData:(BOOL)isJSONData{
     self.HTTPBody = data;
-    [self setValue:[NSString stringWithFormat:@"%d",data.length] forHTTPHeaderField:@"Content-Length"];
+    [self setValue:[NSString stringWithFormat:@"%lu",(unsigned long)data.length] forHTTPHeaderField:@"Content-Length"];
     [self setValue:@"application/x-www-form-urlencoded; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
     
 }
